@@ -32,8 +32,8 @@ To answer the target questions:
 
 ## Next Steps
 This exploration was incredibly insightful. I now have many ideas about how I want to further this analysis:
-1. Find another way to embed the playlists. Node2Vec is too slow for any decent sample size. Compare the quality of their embeddings.
-2. Explore various clustering techniques, especially hierarchical clustering. Compare the quality of the clusters created.
+1. Find other ways to embed the playlists. Examples include Collaborative Fitlering. Node2Vec is too slow for any decent sample size. Compare the quality of their embeddings.
+2. Explore various clustering techniques, especially hierarchical clustering and Leiden's algorithm. Compare the quality of the clusters created.
 3. Create text-based features to reduce the cardinality of playlist names, allowing for more precise labeling of clusters.
 4. In addition to 3, find the artists and tracks that are key to each "playlist genre"
 5. Finally, cluster more playlists!
